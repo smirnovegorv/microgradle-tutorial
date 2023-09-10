@@ -1,4 +1,5 @@
-import print.*;
+package helloworld;
+import helloworld.print.*;
 
 public class HelloWorld {
 

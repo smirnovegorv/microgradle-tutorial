@@ -1,3 +1,5 @@
+package helloworld.print;
+
 import com.diogonunes.jcolor.*;
 
 public class ConsoleHelloWorldPrinter implements IHelloWorldPrinter {
