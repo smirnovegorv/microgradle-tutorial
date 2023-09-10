@@ -10,6 +10,10 @@ if "%1"=="build" (
 ) else if "%1"=="run" (
     echo Running...
     call java -cp ./out/*;lib/* %2
+) else if "%1"=="dependencies" (
+    echo Resolving dependencies...
+    mkdir lib
+    java -jar ./ivy-2.5.2.jar  -retrieve "lib/[artifact]-[type]-[revision].[ext]
 ) else (
     echo Unknown command: %1
 )

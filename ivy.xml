@@ -1,0 +1,6 @@
+<ivy-module version="2.0">
+  <info organisation="com.example" module="microgradle"/>
+  <dependencies>
+    <dependency org="com.diogonunes" name="JColor" rev="5.5.1" conf="default"/>
+  </dependencies>
+ </ivy-module>
